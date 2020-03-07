@@ -1629,3 +1629,31 @@ Sent file log.txt (0.2ms)
 Completed 200 OK in 80ms (ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2020-03-07 11:48:46 +0530
+Processing by UploadUserStoryController#index as HTML
+  Rendering upload_user_story/index.html.erb within layouts/application
+  Rendered upload_user_story/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 240ms (Views: 230.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload_user_story/upload" for 127.0.0.1 at 2020-03-07 11:49:34 +0530
+Processing by UploadUserStoryController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"P5mFNaqnF7ZJro1cXW5JPXKWgTCAOGvoBnAyA1HbFKxQ+JoANY68CcWh5ez6/MmAZt3K4B9xjufPlwZ6H56pIQ==", "file"=>#<ActionDispatch::Http::UploadedFile:0x007fd91011a710 @tempfile=#<Tempfile:/tmp/RackMultipart20200307-16562-13qumja.txt>, @original_filename="log.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"log.txt\"\r\nContent-Type: text/plain\r\n">, "commit"=>"Submit"}
+Sent file log.txt (0.2ms)
+Completed 200 OK in 76ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2020-03-07 11:50:27 +0530
+Processing by UploadUserStoryController#index as HTML
+  Rendering upload_user_story/index.html.erb within layouts/application
+  Rendered upload_user_story/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 33ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload_user_story/upload" for 127.0.0.1 at 2020-03-07 11:50:37 +0530
+Processing by UploadUserStoryController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EQJVUNHd+0uwe0ysu4x0L0g6jTlDd2R3VDNv2ixaJNB+Y0plTvRQ9Dx0JBwcHvSSXHHG6dw+gXid1FujYh+ZXQ==", "file"=>#<ActionDispatch::Http::UploadedFile:0x007fd910876bf8 @tempfile=#<Tempfile:/tmp/RackMultipart20200307-16562-mze9fo.txt>, @original_filename="input_user_story_1.txt", @content_type="text/plain", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"input_user_story_1.txt\"\r\nContent-Type: text/plain\r\n">, "commit"=>"Submit"}
+Sent file log.txt (0.2ms)
+Completed 200 OK in 79ms (ActiveRecord: 0.0ms)
+
+
